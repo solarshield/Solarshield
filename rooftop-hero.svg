@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e0f2fe"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fde68a"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <circle cx="1350" cy="150" r="90" fill="url(#sun)" opacity="0.9"/>
+  <!-- Rooftop -->
+  <path d="M200 700 L800 480 L1400 700 L200 700 Z" fill="#cbd5e1" stroke="#94a3b8" stroke-width="4"/>
+  <!-- Solar panel rows -->
+  <g transform="skewX(-18) translate(180,620)">
+    <g>
+      <rect x="0" y="0" width="340" height="120" rx="8" fill="url(#panel)" stroke="#93c5fd" stroke-width="4"/>
+      <g stroke="#93c5fd" stroke-width="2">
+        <line x1="30" y1="0" x2="30" y2="120"/>
+        <line x1="70" y1="0" x2="70" y2="120"/>
+        <line x1="110" y1="0" x2="110" y2="120"/>
+        <line x1="150" y1="0" x2="150" y2="120"/>
+        <line x1="190" y1="0" x2="190" y2="120"/>
+        <line x1="230" y1="0" x2="230" y2="120"/>
+        <line x1="270" y1="0" x2="270" y2="120"/>
+        <line x1="310" y1="0" x2="310" y2="120"/>
+      </g>
+    </g>
+    <g transform="translate(360, -40)">
+      <rect x="0" y="0" width="340" height="120" rx="8" fill="url(#panel)" stroke="#93c5fd" stroke-width="4"/>
+      <g stroke="#93c5fd" stroke-width="2">
+        <line x1="30" y1="0" x2="30" y2="120"/>
+        <line x1="70" y1="0" x2="70" y2="120"/>
+        <line x1="110" y1="0" x2="110" y2="120"/>
+        <line x1="150" y1="0" x2="150" y2="120"/>
+        <line x1="190" y1="0" x2="190" y2="120"/>
+        <line x1="230" y1="0" x2="230" y2="120"/>
+        <line x1="270" y1="0" x2="270" y2="120"/>
+        <line x1="310" y1="0" x2="310" y2="120"/>
+      </g>
+    </g>
+    <g transform="translate(720, -80)">
+      <rect x="0" y="0" width="340" height="120" rx="8" fill="url(#panel)" stroke="#93c5fd" stroke-width="4"/>
+      <g stroke="#93c5fd" stroke-width="2">
+        <line x1="30" y1="0" x2="30" y2="120"/>
+        <line x1="70" y1="0" x2="70" y2="120"/>
+        <line x1="110" y1="0" x2="110" y2="120"/>
+        <line x1="150" y1="0" x2="150" y2="120"/>
+        <line x1="190" y1="0" x2="190" y2="120"/>
+        <line x1="230" y1="0" x2="230" y2="120"/>
+        <line x1="270" y1="0" x2="270" y2="120"/>
+        <line x1="310" y1="0" x2="310" y2="120"/>
+      </g>
+    </g>
+  </g>
+</svg>

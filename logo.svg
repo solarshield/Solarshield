@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Shield -->
+  <path d="M120 18 L200 48 V118c0 54-38 84-80 104-42-20-80-50-80-104V48z"
+        fill="url(#g1)" stroke="#0ea5e9" stroke-width="3" filter="url(#soft)"/>
+  <!-- Sun -->
+  <circle cx="120" cy="96" r="32" fill="url(#gold)" stroke="#f59e0b" stroke-width="3"/>
+  <!-- Rays -->
+  <g stroke="#f59e0b" stroke-width="4">
+    <line x1="120" y1="52" x2="120" y2="28"/>
+    <line x1="120" y1="164" x2="120" y2="188"/>
+    <line x1="76" y1="96" x2="52" y2="96"/>
+    <line x1="188" y1="96" x2="164" y2="96"/>
+    <line x1="90" y1="66" x2="72" y2="48"/>
+    <line x1="150" y1="66" x2="168" y2="48"/>
+    <line x1="90" y1="126" x2="72" y2="144"/>
+    <line x1="150" y1="126" x2="168" y2="144"/>
+  </g>
+</svg>
